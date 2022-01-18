@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+}
+
+#carta{
+    text-align: center;
+    background-color: hsl(244, 38%, 16%);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 15px;
+    
+}
+#carta img{
+    max-width: 300px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+    
+}
+
+    
+
+#testo-e-parag h2{
+    color: white;
+    margin: 25px 35px;
+}
+#testo-e-parag p{
+    color: grey;
+    margin: 25px 35px;
+}
+#insights{
+    color: hsl(277, 64%, 61%);
+    /* cambia colore */
+}
+#stats{
+    font-family: 'Lexend Deca', sans-serif;
+}
+#stats h3{
+    color: white;
+}
+
+#stats p{
+    margin-bottom: 25px;
+    color: grey;
+}
+#stats>:nth-child(3){
+    padding-bottom: 15px;
+}
+@media (min-width:1330px) {
+    #carta{
+        max-width: 1330px;
+    }
+    #carta img{
+        max-width:1260px;
+    }
+    
+    #boh{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #stats{
+        display: flex;
+        position: absolute;
+        top: 350px;
+        left: 160px;
+        margin: 25px;
+    }
+    .descri{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #testo-e-parag{
+        margin: 40px;
+        font-size: 1.2rem;
+    }
+
+
+}
